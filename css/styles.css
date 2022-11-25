@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin: 0;
+    background-color: #FDCB0B;
+}
+
+header div img{
+    box-sizing: content-box;
+    width: 100%;
+  
+}
+
+#cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0;
+}
+
+#titulo-menu{
+    display: flex;
+    background: #C42229;
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+.item-descripcion img{
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px 15px 10px;
+    border-radius: 11px 11px 11px 11px;
+    /*radio borde*/
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 2px solid #000000;
+    /*radio*/
+    -webkit-box-shadow: 4px 6px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 6px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 11px 0px rgba(0,0,0,0.75);
+}
+.item-descripcion{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.item-precio{
+    display: flex;
+    background: gainsboro;
+    align-items: center;
+    border: 2px solid #000000;
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    margin-right: 10px;
+    padding-left: 7px;
+    border-radius: 5px;
+    /*sombra*/
+    -webkit-box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+#pie-pagina{
+    display: flex;
+    background: #C42229;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

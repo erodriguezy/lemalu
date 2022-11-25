@@ -1,0 +1,9 @@
+header div img{
+    height: 50px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
