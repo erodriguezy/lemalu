@@ -45,12 +45,7 @@ header div img{
 
 }
 
-.item-descripcion img{
-    width: 100px;
-    height: 60px;
-    margin: 5px;
-    border-radius: 5px;
-}
+
 
 .item{
     display: flex;
@@ -68,10 +63,26 @@ header div img{
     -moz-box-shadow: 4px 6px 11px 0px rgba(0,0,0,0.75);
     box-shadow: 4px 6px 11px 0px rgba(0,0,0,0.75);
 }
+
+.item:hover{
+  padding: 5px 5px 5px 5px;
+  
+  margin: 10px 0px 15px 0px; 
+
+ 
+}
+
 .item-descripcion{
     display: flex;
     align-items: center;
     margin-right: 10px;
+}
+
+.item-descripcion img{
+  width: 100px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 .item-precio{
@@ -96,9 +107,23 @@ header div img{
     background: var(--red);
     padding: 10px;
     color: var(--white);
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
+
+#pie-pagina a{
+  text-decoration: none;
+  color: var(--white);
+  background: var(--hospital-green);
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+}
+
+
 
 /*MODAL*/
 
